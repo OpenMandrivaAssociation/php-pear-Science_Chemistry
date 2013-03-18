@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.1.1
-Release:	4
+Version:	1.1.2
+Release:	1
 Summary:	Manipulate chemical objects: atoms, molecules, etc
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Science_Chemistry/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/Science_Chemistry-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -120,4 +120,5 @@ rm -f %{buildroot}%{_datadir}/pear/data/%{upstream_name}/*
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.1.0-1mdk
 - initial Mandriva package (PLD import)
+
 
