@@ -45,9 +45,7 @@ rm -f %{buildroot}%{_datadir}/pear/data/%{upstream_name}/*
 
 
 %files
-%defattr(-,root,root)
-%doc %{upstream_name}-%{version}/README
-%doc %{upstream_name}-%{version}/TODO
+%doc %{upstream_name}-%{version}
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
