@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.2
-Release:	1
+Release:	2
 Summary:	Manipulate chemical objects: atoms, molecules, etc
 License:	PHP License
 Group:		Development/PHP
