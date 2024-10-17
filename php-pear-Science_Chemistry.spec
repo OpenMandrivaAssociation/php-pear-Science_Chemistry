@@ -8,7 +8,7 @@ Release:	2
 Summary:	Manipulate chemical objects: atoms, molecules, etc
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Science_Chemistry/
+URL:		https://pear.php.net/package/Science_Chemistry/
 Source0:	http://download.pear.php.net/package/Science_Chemistry-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
